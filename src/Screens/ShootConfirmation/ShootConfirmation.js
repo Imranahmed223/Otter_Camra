@@ -9,8 +9,10 @@ import {
 import { UpperCard } from "../../Components/UpperCard";
 import { Button } from "../../Components/Button";
 import * as ScreenOrientation from "expo-screen-orientation";
+import Globals from "../../Globals/Globals";
 
 export const ShootConfirmation = ({ navigation }) => {
+  // On this screen we don't need to see screen in landscape mood So we set it as default as Portrait
   const flip = false;
   if (flip == false) {
     ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
@@ -22,7 +24,7 @@ export const ShootConfirmation = ({ navigation }) => {
     >
       <View style={styles.container}>
         <UpperCard
-          backgroundImg={require("../../../assets/images/background_tablet.png")}
+          backgroundImg={Globals.images.upperCardBackImg}
           type="shoot"
           title={"Would you like to join this shoot?"}
         />
@@ -60,7 +62,7 @@ const styles = StyleSheet.create({
     color: "black",
     fontSize: 26,
     fontWeight: "600",
-    fontFamily: "Montserrat-Semi-Bold",
+    fontFamily: Globals.fonts.MontserratSemiBold,
   },
   input: {
     height: 50,

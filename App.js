@@ -8,11 +8,12 @@ import * as SplashScreen from "expo-splash-screen";
 import * as Font from "expo-font";
 import { ShootCamera } from "./src/Screens/ShootCamera/ShootCamera";
 
+// Custom fonts declaration
 let customFonts = {
   "Montserrat-Semi-Bold": require("./assets/fonts/Montserrat/Montserrat-SemiBold.ttf"),
   "Roboto-Regular": require("./assets/fonts/Roboto/Roboto-Regular.ttf"),
 };
-
+// For creating screens stack
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -39,11 +40,19 @@ export default function App() {
     }
   };
 
+  // loading fonts when App.js renders
   const _loadFontsAsync = async () => {
+    try {
     await Font.loadAsync(customFonts);
-    setFontsLoaded(true);
+    } catch (e) {
+      console.warn(e);
+    } finally {
+      // fonts loaded successfully 
+      setFontsLoaded(true);
+    }
   };
 
+  // Function called to hide the splash screen if ready is true
   const onLayoutRootView = useCallback(async () => {
     if (ready) {
       console.log("Hide the splash screen immediately");
@@ -51,6 +60,7 @@ export default function App() {
     }
   }, [ready]);
 
+  // this hook renders firstly when App.js loaded
   useEffect(() => {
     readyApp();
     _loadFontsAsync();

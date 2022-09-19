@@ -1,5 +1,6 @@
 import React from "react";
 import { Pressable, Text, StyleSheet } from "react-native";
+import Globals from "../Globals/Globals";
 
 export const Button = (props) => {
   return (
@@ -31,6 +32,6 @@ const styles = StyleSheet.create({
     color: "white",
     fontWeight: "600",
     fontSize: 16,
-    fontFamily: "Montserrat-Semi-Bold",
+    fontFamily: Globals.fonts.MontserratSemiBold,
   },
 });

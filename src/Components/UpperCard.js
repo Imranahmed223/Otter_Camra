@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import { Ionicons, Entypo } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
+import Globals from "../Globals/Globals";
 
 export const UpperCard = (props) => {
   const navigation = useNavigation();
@@ -49,7 +50,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   card: {
-    height: "65%",
+    height: "66%",
   },
   logo: {
     marginTop: 40,
@@ -63,13 +64,13 @@ const styles = StyleSheet.create({
     padding: 20,
     fontSize: 20,
     fontWeight: "bold",
-    fontFamily: "Montserrat-Semi-Bold",
+    fontFamily: Globals.fonts.MontserratSemiBold,
   },
   title: {
     color: "#ffff",
     padding: 20,
     fontSize: 45,
     fontWeight: "bold",
-    fontFamily: "Montserrat-Semi-Bold",
+    fontFamily: Globals.fonts.MontserratSemiBold,
   },
 });

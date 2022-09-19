@@ -6,14 +6,28 @@ import {
   View,
   KeyboardAvoidingView,
   ScrollView,
+  Alert,
+  Pressable,
 } from "react-native";
 import logo from "../../../assets/icons/logo.png";
 import { UpperCard } from "../../Components/UpperCard";
 import { Button } from "../../Components/Button";
 import * as ScreenOrientation from "expo-screen-orientation";
+import Globals from "../../Globals/Globals";
+import * as Linking from 'expo-linking';
+import { Entypo } from "@expo/vector-icons";
 
 export const Home = ({ navigation, route }) => {
-  const [text, setText] = useState();
+  const [url, setUrl] = useState();
+
+  useEffect(() => {
+    // To get the initialURL  
+    Linking.getInitialURL().then((url) => {
+      setUrl(url);
+    })
+  }, []);
+
+  // On this screen we don't need to see screen in landscape mood So we set it as default as Portrait
   const flip = false;
   if (flip == false) {
     ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
@@ -27,7 +41,7 @@ export const Home = ({ navigation, route }) => {
       <ScrollView>
         <View style={styles.container}>
           <UpperCard
-            backgroundImg={require("../../../assets/images/background_tablet.png")}
+            backgroundImg={Globals.images.upperCardBackImg}
             type="home"
             logo={logo}
             subtitle={"My Phone"}
@@ -35,19 +49,30 @@ export const Home = ({ navigation, route }) => {
           />
           <View style={styles.subContainer}>
             <Text style={styles.inputFieldTitle}>Add your shoot link</Text>
+            <View style={styles.inputContainer}>
             <TextInput
               style={styles.input}
               onChangeText={(e) => {
-                setText(e);
+                setUrl(e);
               }}
-              value={text}
+              value={url}
               placeholder="Add link here"
             />
+            <Pressable onPress={() => setUrl(null)}>
+              <Entypo name="cross" size={24} color="black" style={styles.crossIcon} />
+            </Pressable>
+            </View>
             <Button
               backgroundColor="green"
               color="white"
               btnText="JOIN SHOOT"
-              onPress={() => navigation.navigate("ShootPage")}
+              onPress={() => {
+                if(!url) {
+                  Alert.alert("Shoot URL not found!");
+                } else {
+                  navigation.navigate("ShootPage");
+                }
+              }}
             />
           </View>
         </View>
@@ -66,16 +91,18 @@ const styles = StyleSheet.create({
     color: "black",
     fontSize: 26,
     fontWeight: "bold",
-    fontFamily: "Montserrat-Semi-Bold",
+    fontFamily: Globals.fonts.MontserratSemiBold,
   },
   input: {
+    flex: 1,
     height: 50,
-    marginTop: 20,
     borderWidth: "none",
     borderRadius: 10,
     backgroundColor: "lightgrey",
     color: "black",
     padding: 10,
-    fontFamily: "Roboto-Regular",
+    fontFamily: Globals.fonts.RobotoRegular,
   },
+  crossIcon: { position: 'absolute', right: 10, paddingTop: 10 },
+  inputContainer: { flexDirection: 'row', marginTop: 20 }
 });
