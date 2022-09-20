@@ -24,7 +24,10 @@ export const Home = ({ navigation, route }) => {
     // To get the initialURL  
     Linking.getInitialURL().then((url) => {
       setUrl(url);
-    })
+    }) 
+
+    const { hostname, path, queryParams } = Linking.parse(url);
+    console.log("query", hostname, queryParams);
   }, []);
 
   // On this screen we don't need to see screen in landscape mood So we set it as default as Portrait
