@@ -1,0 +1,342 @@
+{
+  "paste_link": "Add your shoot link",
+  "join_shoot": "Join Shoot",
+  "paste_shoot_link": "Paste shoot link here",
+  "auto_connect": "Auto-Connect",
+  "camera_name": "Camera name",
+  "continue": "Continue",
+  "camera_name_short": "Camera name length must be more then 3 characters.",
+  "enabling_auto_connect": "Enabling Auto-Connect will allow your phone to receive invites to automatically connect you to shoots from directors you previously worked with. You will receive a notification to join. Please enable notifications for this app.",
+  "multiply_connect": "You will not be able to connect to multiple shoots at once.",
+  "empty_field": "This field is required",
+  "no_internet_connection": "No internet connection",
+  "decline": "Decline",
+  "start_streaming": "Join this shoot",
+  "change_orientation": "Turn your\nphone to start\nstreaming",
+  "camera_permission_required": "Camera permission is required",
+  "mic_permission_required": "Microphone permission is required",
+  "any_error": "Unknown error",
+  "micro_permission_not_checked": "Microphone permission not checked",
+  "camera_permission_not_checked": "Camera permission not checked",
+  "unknown_user": "Unknown user",
+  "switch_micro_error": "Switch micro error",
+  "switch_camera_error": "Switch camera error",
+  "stream_initialize_error": "Stream Initialization Error",
+  "camera_initialize_error": "Camera Initialization Error",
+  "no_camera_available": "No Camera Available",
+  "camera_access_denied": "Camera access denied",
+  "micro_access_denied": "Microphone access denied",
+  "stream_not_available": "Stream Not Available",
+  "disable_orientation_lock": "Make sure you have your orientation lock turned off.",
+  "on_air": "On Air",
+  "save": "Save",
+  "cancel": "Cancel",
+  "current_version": "Version",
+  "copied_fcm": "Copied Device ID",
+  "add_camera_name": "Add camera name",
+  "yes_leave": "Yes, leave",
+  "yes_remove": "Yes, remove",
+  "sure_you_want_leave": "Are you sure you want to leave\nthe shoot?",
+  "sure_you_want_remove_user": "Are you sure you want to\nremove this connection?",
+  "stream_error": "Stream Error",
+  "unexpected_error": "Unexpected error",
+  "director_disconnected_you": "You have been disconnected from the shoot",
+  "socket_closed": "The shoot connection was removed",
+  "info": "Info",
+  "error": "Error",
+  "error_contains_spaces": "Url can't contain spaces",
+  "invalid_url": "Invalid shoot url",
+  "terms_conditions": "Terms & Conditions",
+  "live": "Live",
+  "preview": "Preview",
+  "paused": "Paused",
+  "shoot_end": "The shoot has ended",
+  "connection_error": "Something went wrong while connecting",
+  "SHOOT_NOT_FOUND": "Shoot with this url was not found",
+  "SHOOT_DELETED": "Shoot with this url was deleted",
+  "DIR_CONNECT_TIMEOUT": "We can not create connection with Director",
+  "SWT_CONNECT_TIMEOUT": "We can not create connection with the Switcher",
+  "CONNECTION_TIMEOUT": "We can not create connection",
+  "MAX_NUM_CAMERAS": "The maximum number of cameras for this shoot has been reached",
+  "DRIVE_SPACE_LIMIT": "The maximum storage space for this user has been reached",
+  "SHOOT_TIME_LIMIT": "The maximum shoot time for this user has been reached",
+  "local_mode": "Use local IP",
+  "local_ip": "Local IP",
+  "not_valid_link": "The link is not valid",
+  "reconnect_timeout": "Camera reconnection has timed out",
+  "delete_user": "Remove user",
+  "join_question": "Would you\nlike to join\nthis shoot?",
+  "join_shoot_link": "Join a shoot\nvia shoot link \nor notification",
+  "MOVE_LEFT": "Move left",
+  "MOVE_RIGHT": "Move right",
+  "PAN_LEFT": "Pan left",
+  "PAN_RIGHT": "Pan right",
+  "ZOOM_IN": "Zoom in",
+  "ZOOM_OUT": "Zoom out",
+  "MORE_HEADROOM": "More Headroom",
+  "LESS_HEADROOM": "Less Headroom",
+  "HOLD_SHOT": "Hold Shot",
+  "THATS_WRAP": "That's a wrap",
+  "logs_copied": "Logs copied",
+  "copy": "Copy",
+  "auto": "Auto",
+  "wb_title": "White Balance",
+  "grey_world": "Grey World",
+  "focus_position": "Position",
+  "focus_title": "Focus",
+  "wide_angle": "Wide Angle",
+  "wb_red": "R",
+  "wb_green": "G",
+  "wb_blue": "B",
+  "continuous_auto": "Auto",
+  "locked": "Manual",
+  "scan": "Scan",
+  "auto_white_balance": "Auto",
+  "off": "Off",
+  "stream_settings": "Stream Settings",
+  "streaming_protocol": "Streaming protocol",
+  "save_local_ip": "Save Local IP",
+  "camera_type": "Camera Type",
+  "cinematic_extended": "Cinematic Ext.",
+  "cinematic": "Cinematic",
+  "standard": "Standard",
+  "stabilization_mode": "Stabilization Mode",
+  "telephoto": "Telephoto",
+  "ultra_wide": "Ultra Wide",
+  "custom": "Custom",
+  "manual_focus_description": "With this menu open, tap screen to set focus",
+  "zoom_title": "Zoom & Lens",
+  "zoom_change_error": "Zoom change error",
+  "unsupported_device_title": "Device unsupported",
+  "use_external_mic": "Use external microphone",
+  "unsupported_device_body": "We’re sorry but this device is not supported at this time. Please try a different one.",
+  "tablet": {
+    "join_question": "Would you like\nto join this shoot?",
+    "join_shoot_link": "Join a shoot\nvia shoot link \nor notification"
+  },
+  "terms_conditions_updated": "Updated on 2/21/2021",
+  "terms_conditions_main_text": "Thank you for your interest in Otter Network, LLC, doing business as Otter Network (“Otter Network,” “we,” or “us”) and our website at http://otter.network, along with our related websites, networks, applications, mobile applications, and other Platforms provided by Otter Network and its affiliates (collectively, the “Platform”). These Terms of Service are a legally binding contract between you and Otter Network regarding your use of the Platform.",
+  "terms_conditions_data": [
+    {
+      "key": "PLEASE READ THE FOLLOWING TERMS CAREFULLY",
+      "data": "BY CLICKING “I ACCEPT,” OR BY DOWNLOADING, INSTALLING, OR OTHERWISE ACCESSING OR USING THE PLATFORM, YOU AGREE THAT YOU HAVE READ AND UNDERSTOOD, AND, AS A CONDITION TO YOUR USE OF THE PLATFORM, YOU AGREE TO BE BOUND BY, THE FOLLOWING TERMS AND CONDITIONS, INCLUDING THE OTTER NETWORK PRIVACY POLICY AND ANY ADDITIONAL TERMS AND POLICIES OTTER NETWORK MAY PROVIDE FROM TIME TO TIME (TOGETHER, THESE \"TERMS\"). IF YOU ARE NOT ELIGIBLE, OR DO NOT AGREE TO THE TERMS, THEN YOU DO NOT HAVE OUR PERMISSION TO USE THE PLATFORM. YOUR USE OF THE PLATFORM, AND OTTER NETWORK’S PROVISION OF THE PLATFORM TO YOU, CONSTITUTES AN AGREEMENT BY OTTER NETWORK AND BY YOU TO BE BOUND BY THESE TERMS.\n\nPlease read the OTTER NETWORK Privacy Policy carefully for information relating to our collection, use, storage, and disclosure of your personal information. The Otter Network Privacy Policy is incorporated by this reference into, and made a part of, these Terms\n"
+    },
+    {
+      "key": "1. Otter Network Platform Overview",
+      "data": "The Platform provides a video creation tool that enables users to produce videos, incorporating content including videos, photographs, graphics, music tracks, text, icons, and other types of works (“User Content”)."
+    },
+    {
+      "key": "2. Eligibility",
+      "data": "You must be at least 16 years old to use the Platform. By agreeing to these Terms, you represent and warrant to us that: (a) you are at least 16 years old; (b) you have not previously been suspended or removed from the Platform; and (c) your registration and your use of the Platform is in compliance with any and all applicable laws and regulations. If you are an entity, organization, or company, the individual accepting these Terms on your behalf represents and warrants that they have authority to bind you to these Terms and references to you herein (and all of your obligations hereunder) will refer to such entity and any individual using the Platform on such entity’s behalf."
+    },
+    {
+      "key": "3. Accounts and Registration",
+      "data": "To access most features of the Platform, you must register for an account. When you register for an account, you may be required to provide us with certain information about yourself, such as your name, email address, or other contact information. You agree that the information you provide to us is accurate and that you will keep it accurate and up to date at all times. When you register, you will be asked to provide a password. You are solely responsible for maintaining the confidentiality of your account and password, and you accept responsibility for all activities that occur under your account. If you believe that your account is no longer secure, then you must immediately notify us at admin@otter.network."
+    },
+    {
+      "key": "4. Pricing",
+      "data": [
+        {
+          "key": "4.1 Price",
+          "data": "Otter Network reserves the right to determine pricing for the Platform. Otter Network will make reasonable efforts to keep pricing information published on the website up to date. We encourage you to check our website periodically for current pricing information. Otter Network may change the fees for any feature of the Platform, including additional fees or charges, if Otter Network gives you advance notice of changes beforehand, they apply. Otter Network, at its sole discretion, may make promotional offers with distinctive features and different pricing to any of Otter Network’s customers. These promotional offers, unless made to you, will not apply to your offer or these Terms."
+        },
+        {
+          "key": "4.2 Authorization",
+          "data": "You authorize Otter Network to charge all sums for the orders that you make and any level of Platform you select as described in these Terms or published by Otter Network, to the payment method specified in your account. If you pay any fees with a credit card, Otter Network may seek pre-authorization of your credit card account prior to your purchase to verify that the credit card is valid and has the necessary funds or credit available to cover your purchase."
+        },
+        {
+          "key": "4.3 Subscription Platform and Cancellation Policy",
+          "data": "The Platform may include automatically recurring payments for periodic charges (“Subscription Platform”). If you activate a Subscription Platform, you authorize Otter Network to periodically charge, on a going-forward basis and until cancellation of either the recurring payments or your account, all accrued sums on or before the payment due date for the accrued sums. The “Subscription Billing Date” is the date when you purchase your first subscription to the Platform. For information on the “Subscription Fee,” please see our Pricing page. Your account will be charged automatically on the Subscription Billing Date for all applicable fees for the next subscription period. The subscription will continue unless and until you cancel your subscription, or we terminate it. You must cancel your subscription before it renews in order to avoid billing of the next periodic Subscription Fee to your account. We will bill the periodic Subscription Fee to the payment method you provide to us during registration (or to a different payment method if you change your payment information). You may cancel the Subscription Platform by accessing your account settings or by contacting us at: admin@otter.network."
+        },
+        {
+          "key": "4.4 Delinquent Accounts",
+          "data": "Otter Network may suspend or terminate access to the Platform for any account for which any amount is due but unpaid. In addition to the amount due for the Platform, a delinquent account will be charged with fees or charges that are incidental to any chargeback or collection of any the unpaid amount, including collection fees."
+        }
+      ]
+    },
+    {
+      "key": "5. Licenses",
+      "data": [
+        {
+          "key": "5.1 Permission to Use ",
+          "data": "Subject to your complete and ongoing compliance with these Terms, Otter Network grants you limited, non-transferable, non-sublicensable, revocable permission to access and use the Platform for your personal, internal use during the Term at the level of Platform for which you have paid all applicable Fees."
+        },
+        {
+          "key": "5.2 Restrictions ",
+          "data": "Except and solely to the extent such a restriction is impermissible under applicable law, you may not: (a) reproduce, distribute, publicly display, or publicly perform the Platform; (b) make modifications to the Platform; or (c) interfere with or circumvent any feature of the Platform, including any security or access control mechanism. If you are prohibited under applicable law from using the Platform, you may not use it. "
+        },
+        {
+          "key": "5.3 Feedback ",
+          "data": "If you choose to provide input and suggestions regarding problems with or proposed modifications or improvements to the Platform (“Feedback”), then you hereby grant Otter Network an unrestricted, perpetual, irrevocable, non-exclusive, fully paid, royalty-free right to exploit the Feedback in any manner and for any purpose, including to improve the Platform and create other products and Platforms."
+        }
+      ]
+    },
+    {
+      "key": "6. Ownership AND Proprietary Rights",
+      "data": "Platforms and all of the materials incorporated therein (“Materials”) are the property of Otter Network or its third-party licensors. Except as expressly authorized by Otter Network, you may not make use of the Materials. Otter Network reserves all rights to the Materials not granted expressly in these Terms."
+    },
+    {
+      "key": "7. Third Party Terms",
+      "data": [
+        {
+          "key": "7.1 Third Party Platforms and Linked Websites ",
+          "data": "Otter Network provides tools through the Platform that enable you to import and export information, including User Content, to and from third party Platforms, including through features that allow you to link your account on Otter Network with an account on a third-party Platform, such as YouTube or Facebook. By using one of these tools, you agree that Otter Network may transfer that information to and from the applicable Third-party Platform. Third party Platforms are not under Otter Network’s control, and Otter Network is not responsible for any Third-party Platform’s use of your exported information. The Platform may also contain links to third party websites. Linked websites are not under Otter Network’s control, and Otter Network is not responsible for their content."
+        },
+        {
+          "key": "7.2 Third Party Software ",
+          "data": "The Platform may include or incorporate third party software components that are generally available free of charge under licenses granting recipients broad rights to copy, modify, and distribute those components (“Third Party Components”). Although the Platform is provided to you subject to these Terms, nothing in these Terms prevents, restricts, or is intended to prevent or restrict you from obtaining Third Party Components under the applicable third-party licenses or to limit your use of Third-Party Components under those third-party licenses."
+        }
+      ]
+    },
+    {
+      "key": "8. Content",
+      "data": [
+        {
+          "key": "8.1 Video Content Generally ",
+          "data": "Certain features of the Platform may allow users to view, select, suggest, display, remix, and utilize Third-Party Video Content and incorporate same in your User Content. Otter Network does not make any guarantees about any Third-Party Video Content made available through the Platform. It is your responsibility to ensure that you have all necessary rights to use any Third-Party Video Content. "
+        },
+        {
+          "key": "8.2 Premium Media ",
+          "data": "Otter Network may make available Video Content from third party partners. Use of any partner media is covered by their respective agreements. "
+        },
+        {
+          "key": "8.3 User Content Generally ",
+          "data": "Certain features of the Platform may permit users to upload content to the Platform, including videos, photographs, graphics, music tracks, text, icons, and other types of works (“User Content”) and to publish User Content on the Platform. You retain any copyright and other proprietary rights that you may hold in the User Content that you post to the Platform. Nevertheless, we need certain permission from you in order to provide the Platform. "
+        },
+        {
+          "key": "8.4 Limited License Grant to Otter Network ",
+          "data": "By providing User Content to or via the Platform, you grant Otter Network a worldwide, non-exclusive, royalty-free, fully paid right and license (with the right to sublicense) to host, store, transfer, display, perform, reproduce, modify, adapt, create derivative works of, reformat, translate, excerpt (in whole or in part), publish and distribute your User Content, in whole or in part, in any media formats and  through any media channels now known or hereafter developed, for the purposes of providing the Platform. Provided however, Otter Network will not sell, publish, or publicly distribute User Content provided to the Platform without permission from you. "
+        },
+        {
+          "key": "8.5 Limited License Grant to Other Users ",
+          "data": "User Content you provide to the Platform will be restricted to your account and will not be shared to other Users of the Platform except as requested by you. If you request User Content to be made available to other Users of the Platform, you grant those Users a non-exclusive license to access and use your User Content as permitted by these Terms and the functionality of the Platform. "
+        },
+        {
+          "key": "8.6 User Content Representations and Warranties ",
+          "data": "Otter Network disclaims any and all liability in connection with User Content. You are solely responsible for your User Content and the consequences of providing User Content via the Platform. By providing User Content via the Platform, you affirm, represent, and warrant that: \n•\tyour User Content, and the use of your User Content as contemplated by these Terms, does not and will not: (i) infringe, violate, or misappropriate any third party right, including any copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right; (ii) slander, defame, libel, or invade the right of privacy, publicity  or other property rights of any other person; or (iii) cause Otter Network to violate any law or regulation.\nIn such event as we receive a take-down request from a Third-Party claiming copyright infringement, we reserve the right to block your User Content pending resolution of any lawful request we receive to do so.\n"
+        },
+        {
+          "key": "8.7 User Content Disclaimer ",
+          "data": "We are not a broadcaster and are under no obligation to edit or control User Content that you or other users upload or publish and will not be in any way responsible or liable for User Content. Otter Network may, however, at any time and without prior notice, block any User Content that in our sole judgment violates these Terms. You understand that when using the Platform, you may be exposed to User Content from a variety of sources and acknowledge that User Content may be inaccurate, offensive, indecent, or objectionable. You agree to waive, and do waive, any legal or equitable right or remedy you have or may have against Otter Network with respect to User Content. "
+        },
+        {
+          "key": "8.8 Monitoring Content ",
+          "data": "Otter Network does not control and does not have any obligation to monitor: (a) User Content; (ii) any content made available by Third Parties; or (iii) the use of the Platform by its users. "
+        }
+      ]
+    },
+    {
+      "key": "9. Prohibited Conduct",
+      "data": "BY USING THE PLATFORM, YOU AGREE NOT TO:\n•\tuse the Platform for any illegal purpose or in violation of any local, state, national, or international law; violate, or encourage others to violate, any right of a third party, including by infringing or misappropriating any third-party intellectual property right.\n•\tinterfere with security-related features of the Platform, including by: (i) disabling or circumventing features that prevent or limit use or copying of any content; (ii) reverse engineering or otherwise attempting to discover the source code of any portion of the Platform except to the extent that the activity is expressly permitted by applicable law; or (iii) hacking, password “mining” or using any other illegitimate means of interference.\n•\tmodify or create derivatives of any part of the Platform. \n•\tinterfere with the operation of the Platform or any user’s enjoyment of the Platform, including by: (i) uploading or otherwise disseminating any virus, adware, spyware, worm, or other malicious code; (ii) making any unsolicited offer or advertisement to another user of the Platform; (iii) collecting personal information about another user or third party without consent; or (iv) interfering with or disrupting any network, equipment, or server connected to or used to provide the Platform.\n•\tperform any fraudulent activity including impersonating any person or entity, claiming a false affiliation, accessing any other Platform account without permission, or falsifying your age or date of birth; take action that imposes an unreasonable or disproportionately large load on the infrastructure of the Platform of Otter Network’s systems or networks, or any systems or networks connected to the Platform or Otter Network.\n•\tsell or otherwise transfer the access granted under these Terms or any Materials (as defined in Section 6) or any right or ability to view, access, or use any Materials; or attempt to do any of the acts described in this Section 9 or assist or permit any person in engaging in any of the acts described in this Section 9.\n"
+    },
+    {
+      "key": "10. Copyright",
+      "data": [
+        {
+          "key": "10.1 Digital Millennium Copyright Act ",
+          "data": "We comply with the provisions of the Digital Millennium Copyright Act applicable to Internet Platform providers (17 U.S.C. §512, as amended). If you have an intellectual property rights-related complaint about material posted on the Platform, you may contact our Designated Agent at the following address:\nOtter Network \n1311 Newning \nAustin, Texas 78704 \nEmail: admin@Otter.Network \nAny notice alleging that materials hosted by or distributed through the Platform infringe intellectual property rights must include the following information:\n•\tan electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other right being infringed.\n•\ta description of the copyrighted work or other intellectual property that you claim has been infringed.\n•\ta description of the material that you claim is infringing and where it is located on the Platform, your address, telephone number, and email address.\n•\ta statement that the complainant has a good faith belief that the use of the materials on the Platform is not authorized by the copyright owner, its agent, or the law; and\n•\ta statement by the complainant that the above information in your notice is accurate and that, under penalty of perjury, that the complainant is the copyright or intellectual property owner or authorized to act on the copyright or intellectual property owner's behalf.\n"
+        },
+        {
+          "key": "10.2 Repeat Infringers ",
+          "data": "It is Otter Network’s policy to promptly terminate the accounts of users that are determined by Otter Network to be repeat  infringers."
+        }
+      ]
+    },
+    {
+      "key": "11. Modification of these Terms ",
+      "data": "We reserve the right to change these Terms on a going-forward basis at any time. Please check these Terms periodically for changes. Modifications will become effective upon the earlier of (a) your acceptance of the modified Terms, (b) your use of the Platform with actual knowledge of the modified Terms, or (c) thirty (30) days following our publication of the modified Terms through the Platform. Disputes arising under these Terms will be resolved in accordance with the version of these Terms that was in effect at the time the dispute arose."
+    },
+    {
+      "key": "12. Term, Termination and Modification of the Platform ",
+      "data": [
+        {
+          "key": "12.1 Term ",
+          "data": "These Terms are effective beginning when you accept the Terms or first download, install, access, or use the Platform, and ending when terminated as described in Section 12.2."
+        },
+        {
+          "key": "12.2 Termination ",
+          "data": "If you violate any provision of these Terms, your authorization to access the Platform terminates. In addition, Otter Network may, at its sole discretion, terminate your account on the Platform, or suspend or terminate your access to the Platform, at any time for any reason or no reason, with or without notice. You may terminate your account at any time as provided in Section 4.3 or by contacting customer Platform at admin@otter.network "
+        },
+        {
+          "key": "12.3 Effect of Termination ",
+          "data": "Upon termination of these Terms: (a) your license rights will terminate, and you must immediately cease all use of the Platform; (b) you will no longer be authorized to access your account or the Platform; (c) you must pay Otter Network any unpaid amount that was due prior to termination; and (d) all payment obligations accrued prior to termination and Sections 5.3, 6, 12.3, 13, 14, 15, 16 and 17 will survive. "
+        },
+        {
+          "key": "12.4 Modification of the Platform ",
+          "data": "Otter Network reserves the right to modify or discontinue the Platform at any time (including by limiting or discontinuing certain features of the Platform), temporarily or permanently, without notice to you. Otter Network will have no liability for any change to the Platform or any suspension or termination of your access to or use of the Platform. Premium Platform fees are not refundable."
+        }
+      ]
+    },
+    {
+      "key": "13. Indemnity ",
+      "data": "You are responsible for your use of the Platform, and you will defend and indemnify Otter Network and its officers, directors, employees, members, consultants, affiliates, subsidiaries and agents (together, the “Otter Network Indemnities”) from and against every claim  brought by a third party, and any related liability, damage, loss, and expense, including reasonable attorneys’ fees and costs, arising out of or connected with: (a) your use of the Platform; (b) your violation of any portion of these Terms, any representation, warranty, or agreement referenced in these Terms, or any applicable law or regulation; (c) your violation of any third    party right, including any intellectual property right or publicity, confidentiality, other property, or privacy right; or (d) any dispute or issue between you and any third party. We reserve the right, at our own expense, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you (without limiting your indemnification obligations with respect to that matter), and  in that case, you agree to cooperate with our defense of those claims. "
+    },
+    {
+      "key": "14. Disclaimers; No Warranties",
+      "data": "THE PLATFORM AND ALL MATERIALS AND CONTENT AVAILABLE THROUGH THE PLATFORM ARE PROVIDED “AS IS” AND ON AN “AS AVAILABLE” BASIS. OTTER NETWORK DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, RELATING TO THE PLATFORM AND ALL MATERIALS AND CONTENT AVAILABLE THROUGH THE PLATFORM, INCLUDING: (A) ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT, OR NON-INFRINGEMENT; AND (B) ANY WARRANTY ARISING OUT OF COURSE OF DEALING, USAGE, OR TRADE. OTTER NETWORK DOES NOT WARRANT THAT THE PLATFORM OR ANY PORTION OF THE PLATFORM, OR ANY MATERIALS OR CONTENT OFFERED THROUGH THE PLATFORM, WILL BE UNINTERRUPTED, SECURE, OR FREE OF ERRORS, VIRUSES, OR OTHER HARMFUL COMPONENTS, AND OTTER NETWORK DOES NOT WARRANT THAT ANY OF THOSE ISSUES WILL BE CORRECTED.\n\nNO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM THE PLATFORM OR ANY MATERIALS OR CONTENT AVAILABLE THROUGH THE PLATFORM WILL CREATE ANY WARRANTY REGARDING ANY OF THE OTTER NETWORK ENTITIES OR THE PLATFORM THAT IS NOT EXPRESSLY STATED IN THESE TERMS. WE ARE NOT RESPONSIBLE FOR ANY DAMAGE THAT MAY RESULT FROM THE PLATFORM AND YOUR DEALINGS WITH ANY OTHER PLATFORM USER. YOU UNDERSTAND AND AGREE THAT YOU USE ANY PORTION OF THE PLATFORM AT YOUR OWN DISCRETION AND RISK, AND THAT WE ARE NOT RESPONSIBLE FOR ANY DAMAGE TO YOUR PROPERTY (INCLUDING YOUR COMPUTER SYSTEM OR MOBILE DEVICE USED IN CONNECTION WITH THE PLATFORM) OR ANY LOSS OF DATA, INCLUDING USER CONTENT.\n\nHOWEVER, OTTER NETWORK DOES NOT DISCLAIM ANY WARRANTY OR OTHER RIGHT THAT OTTER NETWORK IS PROHIBITED FROM DISCLAIMING UNDER APPLICABLE LAW. "
+    },
+    {
+      "key": "15. Limitation of Liability ",
+      "data": "TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT WILL THE OTTER NETWORK ENTITIES BE LIABLE TO YOU FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES (INCLUDING DAMAGES FOR LOSS OF PROFITS, GOODWILL, OR ANY OTHER INTANGIBLE LOSS) ARISING OUT OF OR RELATING TO YOUR ACCESS TO OR USE OF, OR YOUR INABILITY TO ACCESS OR USE, THE PLATFORM OR ANY MATERIALS OR CONTENT ON THE PLATFORM, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), STATUTE, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT ANY OTTER NETWORK ENTITY HAS BEEN INFORMED OF THE POSSIBILITY OF DAMAGE.\n\nTO THE FULLEST EXTENT PERMITTED BY LAW, THE AGGREGATE LIABILITY OF THE OTTER NETWORK ENTITIES TO YOU FOR ALL CLAIMS ARISING OUT OF OR RELATING TO THE USE OF OR ANY INABILITY TO USE ANY PORTION OF THE PLATFORM OR  OTHERWISE UNDER THESE TERMS, WHETHER IN CONTRACT, TORT, OR OTHERWISE, IS LIMITED TO THE GREATER OF: (A) THE AMOUNT YOU HAVE PAID TO OTTER NETWORK FOR ACCESS TO AND USE OF THE PLATFORM IN THE 12 MONTHS PRIOR TO THE EVENT OR CIRCUMSTANCE GIVING RISE TO CLAIM; OR (B) $100.\n\nEACH PROVISION OF THESE TERMS THAT PROVIDES FOR A LIMITATION OF LIABILITY, DISCLAIMER OF WARRANTIES, OR EXCLUSION OF DAMAGES IS INTENDED TO AND DOES ALLOCATE THE RISKS BETWEEN THE PARTIES UNDER THESE TERMS. THIS ALLOCATION IS AN ESSENTIAL ELEMENT OF THE BASIS OF THE BARGAIN BETWEEN THE PARTIES. EACH OF THESE PROVISIONS IS SEVERABLE AND INDEPENDENT OF ALL OTHER PROVISIONS OF THESE TERMS.  "
+    },
+    {
+      "key": "16. Arbitration ",
+      "data": "Notwithstanding anything contained herein, you agree that any legal disputes arising out of or relating to these Terms, or   the use of the Platform shall be submitted to binding arbitration in Travis County, Texas, USA. Any judgment on the award by the arbitrator may be entered in a court having jurisdiction thereof. You agree that any claim, action or proceeding arising out of or related to these Terms of Platform or the Platforms must be brought in your individual capacity, and not as a plaintiff or class member in any purported representative or class proceeding. The arbitrator may not consolidate more than one person’s claims. YOU ACKNOWLEDGE THAT YOU ARE WAIVING THE RIGHT TO A TRIAL BY JURY OR TO PARTICIPATE AS A PLAINTIFF OR CLASS MEMBER IN A CLASS ACTION OR REPRESENTATIVE PROCEEDING. "
+    },
+    {
+      "key": "17. General Terms",
+      "additional": "These Terms, together with the Privacy Policy and any other agreements expressly incorporated by reference into these Terms, are the entire and exclusive understanding and agreement between you and Otter Network regarding your use of the Platform. You may not assign or transfer these Terms or your rights under these Terms, in whole or in part, by operation of law or otherwise, without our prior written consent. We may assign these Terms at any time without notice or consent. The failure to require performance of any     provision will not affect our right to require performance at any other time after that, nor will a waiver by us of any breach or default of these Terms, or any provision of these Terms, be a waiver of any subsequent breach or default or a waiver of the provision itself. Use  of section headers in these Terms is for convenience only and will not have any impact on the interpretation of any provision. Throughout these Terms the use of the word “including” means “including, but not limited to.” If any part of these Terms is held to be invalid or unenforceable, the unenforceable part will be given effect to the greatest extent possible, and the remaining parts will remain in full force and effect.",
+      "data": [
+        {
+          "key": "17.1 Governing Law ",
+          "data": "These Terms shall be governed by and construed in accordance with the laws of the State of Texas without regard to its conflicts of law doctrine. Subject to the arbitration provisions set forth herein, the parties agree that any disputes between them may be heard only in the state or federal courts in the State of Texas, and the parties hereby consent to venue and jurisdiction in those courts. "
+        },
+        {
+          "key": "17.2 Consent To Electronic Communications ",
+          "data": "By using the Platform, you consent to receiving certain electronic communications from us as further described in our Privacy Policy. Please read our Privacy Policy to learn more about our electronic communications practices. You agree that any notices, agreements, disclosures, or other communications that we send to you electronically will satisfy any legal communication requirements, including that those communications be in writing."
+        },
+        {
+          "key": "17.3 Contact Information ",
+          "data": "Otter Network\n1311 Newning\nAustin, Texas , 78704 \nEmail: admin@otter.network\n"
+        }
+      ]
+    }
+  ],
+  "privacy_policy": "Privacy Policy",
+  "privacy_policy_updated": "Updated on 2/21/2022",
+  "privacy_policy_main_text": "This privacy notice discloses the privacy practices for Otter Network LLC. This privacy notice applies solely to information collected by this company’s products, or through the company’s website. It will notify you of the following:\n1.\tWhat personally identifiable information is collected from you through the product, how it is used and with whom it may be shared.\n2.\tWhat choices are available to you regarding the use of your data.\n3.\tThe security procedures in place to protect the misuse of your information.\n4.\tHow you can correct any inaccuracies in the information.\n",
+  "privacy_policy_data": [
+    {
+      "key": "INFORMATION COLLECTION, USE, AND SHARING",
+      "data": "We are the sole owners of the information collected on this site. We only have access to/collect information that you voluntarily give us via email or other direct contact from you. We will not sell or rent this information to anyone.\nWe will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to ship an order.\nUnless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy.\n"
+    },
+    {
+      "key": "REGISTRATION",
+      "data": "In order to use this product, a user must first complete the registration form. During registration a user is required to give certain information (such as name and email address). This information is used to contact you about the products/services on our site in which you have expressed interest."
+    },
+    {
+      "key": "COOKIES",
+      "data": "We use “cookies” on this site. A cookie is a piece of data stored on a site visitor’s hard drive to help us improve your access to our site and identify repeat visitors to our site. For instance, when we use a cookie to identify you, you would not have to log in a password more than once, thereby saving time while on our site. Cookies can also enable us to track and target the interests of our users to enhance the experience on our site. Usage of a cookie is in no way linked to any personally identifiable information on our site."
+    },
+    {
+      "key": "SHARING",
+      "data": "We share aggregated demographic information with our partners and advertisers. This is not linked to any personal information that can identify any individual person."
+    },
+    {
+      "key": "LINKS",
+      "data": "The Otter Network website contains links to other sites. Please be aware that we are not responsible for the content or privacy practices of such other sites. We encourage our users to be aware when they leave our site and to read the privacy statements of any other site that collects personally identifiable information."
+    },
+    {
+      "key": "YOUR ACCESS TO AND CONTROL OVER INFORMATION",
+      "data": "You may opt out of any future contacts from us at any time. You can do the following at any time by contacting us via the email address support@otter.network :\n•\tSee what data we have about you, if any.\n•\tChange/correct any data we have about you.\n•\tHave us delete any data we have about you.\n•\tExpress any concern you have about our use of your data.\n"
+    },
+    {
+      "key": "SECURITY",
+      "data": "We take precautions to protect your information. When you submit sensitive information via the product or website, your information is protected both online and offline.\nWherever we collect sensitive information (such as credit card data), that information is encrypted and transmitted to us in a secure way. You can verify this by looking for a lock icon in the address bar and looking for “https” at the beginning of the address of the Web page.\nWhile we use encryption to protect sensitive information transmitted online, we also protect your information offline. Only employees who need the information to perform a specific job (for example, billing or customer service) are granted access to personally identifiable information. The computers/servers in which we store personally identifiable information are kept in a secure environment.\n"
+    },
+    {
+      "key": "FACEBOOK DATA COLLECTION AND DELETION POLICY",
+      "data": "Data and permissions collected from Facebook when connecting your Facebook account.\nPermission to publish video in order to stream live audio/video to your timeline, pages you control, and groups you have admin control of:\n•\tA list of pages you can post live video to.\n•\tA list of groups you can post live video to.\n•\tNo other data is collected or used by our application.\nWe collect data from your Facebook account for the sole purpose of live streaming audio/video to.\n1.\tYour timeline\n2.\tPages you have permission to live stream to\n3.\tGroups you have permission to live stream to\nWe do not use any data from you Facebook account for any other reason.  We do not sell or rent any of this data.\nTo remove this data for our application, remove the connection to your Facebook on the “Streaming Platforms” within our application. If you have any concerns about your data and its deletion you can contact us via email here support@otter.network\n"
+    }
+  ]
+}
