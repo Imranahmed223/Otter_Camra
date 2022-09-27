@@ -13,6 +13,7 @@ import { CameraInfo } from './CameraInfo.js'
 class MainScreen extends React.Component {
 
   constructor(props) {
+    // console.log("Params", props.route.params.srtUrl);
     super(props)
     this.state = {
       isStreaming: false,

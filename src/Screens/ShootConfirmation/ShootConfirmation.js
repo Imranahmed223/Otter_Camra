@@ -32,7 +32,10 @@ export const ShootConfirmation = ({ navigation }) => {
               backgroundColor="orange"
               color="black"
               btnText="JOIN THE SHOOT"
-              onPress={() => navigation.navigate("Main")}
+              onPress={() => navigation.navigate("Main", {
+                id: 1,
+                srtUrl: 'StreamURL'
+              })}
             />
             <Button
               backgroundColor="lightgray"
